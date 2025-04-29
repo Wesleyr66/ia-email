@@ -1,6 +1,6 @@
 import imaplib
 import email
-from iaClassifier import classify_email_with_ai  # Importa a função de classificação
+from iaClassifier import classify_email_with_ai
 from config import EMAIL, SENHA
 
 def get_latest_email_text():

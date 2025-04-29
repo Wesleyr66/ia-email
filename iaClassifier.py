@@ -10,7 +10,7 @@ def classify_email_with_ai(content):
     
     try:
         response = openai.Completion.create(
-            model="text-davinci-003",
+            model="gpt-3.5-turbo",
             prompt=f"Classifique este e-mail em uma das seguintes categorias: 'Segurança', 'Promoção', 'Notificação', 'Outros'. E-mail: {content}",
             max_tokens=100,
             temperature=0.7

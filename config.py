@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import os
 
-load_dotenv()  # Carrega as variáveis do .env
+load_dotenv()
 
 EMAIL = os.getenv("EMAIL")
 SENHA = os.getenv("SENHA")
