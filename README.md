@@ -7,21 +7,21 @@ Installation Guide
 To run the Email Classification and Analysis AI Project, follow the steps below:
 
 1. Clone the Repository
-   https://github.com/Wesleyr66/ia-email.git
+   https://github.com/Wesleyr66/ia-email.git <br/>
    cd ia-email
 
-3. Set Up a Virtual Environment
-   python -m venv venv (Windowns)
+3. Set Up a Virtual Environment<br/>
+   python -m venv venv (Windowns)<br/>
    .\venv\Scripts\activate
 
-4. Install Dependencies
+4. Install Dependencies<br/>
    pip install -r requirements.txt
 
 5. Create a .env File
    In the root of the project and add your credentials and API keys.
-   {
-    EMAIL=your-email@gmail.com
-    SENHA=your-app-password
+   {<br/>
+    EMAIL=your-email@gmail.com <br/>
+    SENHA=your-app-password <br/>
     OPENAI_API_KEY=your-openai-api-key
    }
    
